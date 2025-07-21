@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff;
+}
+
+#quiz-container, #result-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.sentence {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.word-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 50px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+}
+
+.word-container.drag-over {
+    background-color: #e0f7fa; /* ドロップ可能なエリアをハイライト */
+    border-color: #00bcd4;
+}
+
+.word-block {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: grab;
+    user-select: none; /* テキスト選択を防ぐ */
+}
+
+.word-block.dragging {
+    opacity: 0.5;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#feedback {
+    margin-top: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#progress-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}

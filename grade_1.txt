@@ -1,0 +1,968 @@
+□ 1. これは何ですか。
+
+
+□ 2. それはかばんです。（１の文に対して）
+
+
+□ 3. 英語はやさしい（です）。
+
+
+□ 4. あなたは何を食べますか。
+
+
+□ 5. 私はすしを食べます。（４の文に対して）
+
+
+□ 6. あなたは何匹の犬を飼っていますか。
+
+
+□ 7. 私は２匹のいぬを飼っています。（６の文に対して）
+
+
+□ 8. 公園に行きましょう。
+
+
+□ 9. これを見なさい。
+
+
+
+□10. ケンは英語を話します。
+
+
+□ 1. What is this?
+
+
+□ 2. It is a bag.
+
+
+□ 3. English is easy.
+
+
+□ 4. What do you eat?
+
+
+□ 5. I eat sushi.
+
+
+□ 6. How many dogs do you have?
+
+
+□ 7. I have two dogs.
+
+
+□ 8. Let's go to the park.
+
+
+□ 9. Look at this.
+
+
+□10. Ken speaks English.
+
+
+
+□11. ケンは英語を話しますか。
+
+
+□12. はい、話します。（11の文に対して）
+
+
+□13. いいえ、話しません。（11の文に対して）
+
+
+□14. 彼女は音楽が好きではありません。
+
+
+□15. ユミは[ユミって]誰ですか。
+
+
+□16. 彼女は私の妹です。（15の文に対して）
+
+
+□17. 何時ですか。
+
+
+□18. ８時です。（17の文に対して）
+
+
+□19. あなたは何色が好きですか。
+
+
+□20. 私は青が好きです。（19の文に対して）
+
+
+□11. Does Ken speak English?
+
+
+□12. Yes, he does.
+
+
+□13. No, he does not.
+
+
+□14. She does not like music.
+
+
+□15. Who is Yumi?
+
+
+□16. She is my sister.
+
+
+□17. What time is it?
+
+
+□18. It is eight (o'clock).
+
+
+□19. What color do you like?
+
+
+□20. I like blue.
+
+
+□ 1.?あなたのお気に入りは野球とサッカーのどちらですか。
+
+
+□ 2. 野球です。（１の文に対して）
+
+
+□ 3. 私のぼうしはどこですか。
+
+
+□ 4. (それは)机の上です。（３の文に対して）
+
+
+□ 5. これは誰のペンですか。
+
+
+□ 6. (それは)私のものです。（５の文に対して）
+
+
+□ 7. 私は彼を知っています。
+
+
+□ 8. 私は彼女が好きです。
+
+
+□ 9. 私はテレビを見ています。
+
+
+□10. あなたはコンピュータを使っていますか。
+
+
+□ 1. Which is your favorite, baseball or soccer?
+
+
+□ 2. Baseball is.
+
+
+□ 3. Where is my cap?
+
+
+□ 4. It is on the desk.
+
+
+□ 5. Whose pen is this?
+
+
+□ 6. It is mine.
+
+
+□ 7. I know him.
+
+
+□ 8. I like her.
+
+
+□ 9. I am watching TV.
+
+
+□10. Are you using a computer?
+
+
+□11. はい、使っています。（10の文に対して）
+
+
+□12. いいえ、使っていません。（10の文に対して）
+
+
+□13. あなたは何をしていますか。
+
+
+□14. 私は音楽を聞いています。（13の文に対して）
+
+
+□15. ドアを開けてはいけません。
+
+
+□16. 気をつけなさい。
+
+
+□17. 私は上手に泳ぐことができます。
+
+
+□18. あなたはピアノをひくことができますか。
+
+
+□19. はい、ひくことができます。（18の文に対して）
+
+
+□20. いいえ、ひくことができません。（18の文に対して）
+
+
+□11. Yes, I am.
+
+
+□12. No, I am not.
+
+
+□13. What are you doing?
+
+
+□14. I am listening to music.
+
+
+□15. Don't open the door.
+
+
+□16. Be careful.
+
+
+□17. I can swim well.
+
+
+□18. Can you play the piano?
+
+
+□19. Yes, I can.
+
+
+□20. No, I cannot.
+
+
+□ 1. あなたはいつ泳ぎますか。
+
+
+□ 2. 私は夏に泳ぎます。（１の文に対して）
+
+
+□ 3. この辞書を使ってもいいですか。
+
+
+□ 4. 申し訳ありませんが、できません。（３の文に対して）
+
+
+□ 5. 窓を閉めてくれますか。
+
+
+□ 6. いいですよ。（３と５の文に対して）
+
+
+□ 7. 私は昨夜英語を勉強しました。
+
+
+□ 8. 私は昨日学校に行きました。
+
+
+□ 9. あなたは昼食を食べましたか。
+
+
+□10. はい、食べました。（９の文に対して）
+
+
+□ 1. When do you swim?
+
+
+□ 2. I swim in summer.
+
+
+□ 3. Can I use this dictionary?
+
+
+□ 4. I'm sorry, you can't.
+
+
+□ 5. Can you close the window?
+
+
+□ 6. Sure.
+
+
+□ 7. I studied English last night.
+
+
+□ 8. I went to school yesterday.
+
+
+□ 9. Did you have lunch?
+
+
+□10. Yes, I did.
+
+
+□11. いいえ、食べませんでした。（９の文に対して）
+
+
+□12. どうしたのですか。
+
+
+□13. お腹が痛いのです。（12の文に対して）
+
+
+□14. すみません。
+
+
+□15. 昼食に何を食べますか。
+
+
+□16. シリアルを食べます。（15の文に対して）
+
+
+□17. あなたはどうですか。
+
+
+□18. あなたは何歳ですか。
+
+
+□19. 12歳です。（18の文に対して）
+
+
+□20. 手伝ってくれてありがとう。
+
+
+□11. No, I did not.
+
+
+□12. What's wrong?
+
+
+□13. I have a stomachache.
+
+
+□14. Excuse me.
+
+
+□15. What do you have for lunch?
+
+
+□16. I have cereal.
+
+
+□17. How about you?
+
+
+□18. How old are you?
+
+
+□19. I'm twelve years old.
+
+
+□20. Thank you for your help.
+
+
+□ 1. 彼はあなたの先生ですか。
+
+
+□ 2. はい、そうです。（１の文に対して）
+
+
+□ 3. いいえ、ちがいます。（１の文に対して）
+
+
+□ 4. 彼女はテニスが得意ですか。
+
+
+□ 5. はい、得意です。（４の文に対して）
+
+
+□ 6. いいえ、得意ではありません。（４の文に対して）
+
+
+□ 7. タカオはあなたのクラスメートですか。
+
+
+□ 8. はい、そうです。（７の文に対して）
+
+
+□ 9. いいえ、ちがいます。（７の文に対して）
+
+
+□10. リサは彼の妹ですか。
+
+
+□ 1. 彼はあなたの先生ですか。
+
+
+□ 2. はい、そうです。（１の文に対して）
+
+
+□ 3. いいえ、ちがいます。（１の文に対して）
+
+
+□ 4. 彼女はテニスが得意ですか。
+
+
+□ 5. はい、得意です。（４の文に対して）
+
+
+□ 6. いいえ、得意ではありません。（４の文に対して）
+
+
+□ 7. タカオはあなたのクラスメートですか。
+
+
+□ 8. はい、そうです。（７の文に対して）
+
+
+□ 9. いいえ、ちがいます。（７の文に対して）
+
+
+□10. リサは彼の妹ですか。
+
+
+□11.はい、そうです。（10の文に対して）
+
+
+□12. いいえ、ちがいます。（10の文に対して）
+
+
+□13. あの男の子は彼女の弟ですか。
+
+
+□14. はい、そうです。（13の文に対して）
+
+
+□15. いいえ、ちがいます。（13の文に対して）
+
+
+□16. この女の子は彼のいとこですか。
+
+
+□17. はい、そうです。（16の文に対して）
+
+
+□18. いいえ、ちがいます。（16の文に対して）
+
+
+□19. あれは何ですか。
+
+
+□20. 古い教会です。（19の文に対して）
+
+
+□11. Yes, she is.
+
+
+□12. No, she isn't.
+
+
+□13. Is that boy her brother?
+
+
+□14. Yes, he is.
+
+
+□15. No, he isn't.
+
+
+□16. Is this girl his cousin?
+
+
+□17. Yes, she is.
+
+
+□18. No, she isn't.
+
+
+□19. What is that?
+
+
+□20. It's an old church.
+
+
+□ 1. 私は毎日ピアノをひきます。
+
+
+□ 2. 私たちは毎朝牛乳を飲みます。
+
+
+□ 3. 私は英語で手紙を書きます。
+
+
+□ 4. 彼らはとても上手に歌を歌います。
+
+
+□ 5. あなたはあの女の子を知っていますか。
+
+
+□ 6. いいえ、知っていません。（５の文に対して）
+
+
+□ 7. 私は新しいギターがほしい。
+
+
+□ 8. あなたは11時に寝ますか。
+
+
+□ 9. はい、寝ます。（８の文に対して）
+
+
+□10. 私は１匹もネコを飼っていません。
+
+
+□ 1. I play the piano every day.
+
+
+□ 2. We drink milk every morning.
+
+
+□ 3. I write a letter in English.
+
+
+□ 4. They sing very well.
+
+
+□ 5. Do you know that girl?
+
+
+□ 6. No, I don't.
+
+
+□ 7. I want a new guitar.
+
+
+□ 8. Do you go to bed at eleven（o'clock）?
+
+
+□ 9. Yes, I do.
+
+
+□10. I don't have any cats.
+
+
+□11. 私は写真を何枚か持っています。
+
+
+□12. あなたは何本かえんぴつを持っていますか。
+
+
+□13. いいえ、持っていません。（12の文に対して）
+
+
+□14. あなたたちは何冊のマンガ本を持っていますか。
+
+
+□15. 20冊です［20冊のマンガ本を持っています］。（14の文に対して）
+
+
+□16. 音楽を聞きましょう。
+
+
+□17. それを使いなさい。
+
+
+□18. この問題は難しい。
+
+
+□19. それはミホにはやさしい。
+
+
+□20. 私はとてもおなかがすいています。
+
+
+
+□11. I have some pictures.
+
+
+□12. Do you have any pencils?
+
+
+□13. No, I don't.
+
+
+□14. How many comic books do you have?
+
+
+□15. We have twenty comic books.
+
+
+□16. Let's listen to music.
+
+
+□17. Use it.
+
+
+□18. This question is difficult.
+
+
+□19. It is easy for Miho.
+
+
+□20. I am very hungry.
+
+
+□ 1. サキはオーストラリアに住んでいますか。
+
+
+□ 2. はい、住んでいます。（１の文に対して）
+
+
+□ 3. いいえ、住んでいません。（１の文に対して）
+
+
+□ 4. 私の弟は火曜日に英語を勉強します。
+
+
+□ 5. 私の父はあの学校で数学を教えます。
+
+
+□ 6. 私の姉はときどき私のコンピューターを使います。
+
+
+□ 7. あの男の子はだれですか。
+
+
+□ 8. 私の弟です。（７の文に対して）
+
+
+□ 9. この男の人はだれですか。
+
+
+□10. オオタニショウヘイです。（９の文に対して）
+
+
+□ 1. Does Saki live in Australia?
+
+
+□ 2. Yes, she does.
+
+
+□ 3. No, she doesn't.
+
+
+□ 4. My brother studies English on Tuesdays.
+
+
+□ 5. My father teaches math at that school.
+
+
+□ 6. My sister sometimes uses my computer.
+
+
+□ 7. Who is that boy?
+
+
+□ 8. He is my brother.
+
+
+□ 9. Who is this man?
+
+
+□10. He is Otani Shohei.
+
+
+□11. あなたは毎朝何時に起きますか。
+
+
+□12. 私は７時半に起きます。（11の文に対して）
+
+
+□13. あなたのお母さんは何のスポーツが好きですか。
+
+
+□14. 彼女はバレーボールが好きです。（13の文に対して）
+
+
+□15. 今日は何曜日ですか。
+
+
+□16. 水曜日です。（15の文に対して）
+
+
+□17. どちらのイヌがあなたのですか。
+
+
+□18. この白いほうです。（17の文に対して）
+
+
+□19. あなたはどこの出身ですか。
+
+
+□20. 私は京都の出身です。（19の文に対して）
+
+
+□11. What time do you get up every morning?
+
+
+□12. I get up at seven thirty.
+
+
+□13. What sport does your mother like?
+
+
+□14. She likes volleyball.
+
+
+□15. What day is （it） today?
+
+
+□16. It's Wednesday.
+
+
+□17. Which dog is yours?
+
+
+□18. This white one is.
+
+
+□19. Where are you from?
+
+
+□20. I am from Kyoto.
+
+
+
+□ 1. あれはだれのコンピューターですか。
+
+
+□ 2. 兄のです。（１の文に対して）
+
+
+□ 3. このギターは彼女のものです。
+
+
+□ 4. あのぼうしはあなたのものですか。
+
+
+□ 5. これらの本は私たちのものです。
+
+
+□ 6. 彼は私たちといっしょに学校に行きます。
+
+
+□ 7. 手伝って。
+
+
+□ 8. ヒロトは海で泳いでいます。
+
+
+□ 9. 私は今本を読んでいません。
+
+
+□10. ヒナは今何をしていますか。
+
+
+□ 1. Whose computer is that?
+
+
+□ 2. It's my brother's.
+
+
+□ 3. This guitar is hers.
+
+
+□ 4. Is that cap yours?
+
+
+□ 5. These books are ours.
+
+
+□ 6. He goes to school with us.
+
+
+□ 7. Help me.
+
+
+□ 8. Hiroto is swimming in the sea.
+
+
+□ 9. I am not reading a book now.
+
+
+□10. What is Hina doing now?
+
+
+
+□11. 彼女は公園で走っています。（10の文に対して）
+
+
+□12. お入りください。
+
+
+□13. ここで遊んではいけません。
+
+
+□14. お年寄りには親切にしなさい。
+
+
+□15. 私はまったく英語を話すことができません。
+
+
+□16. まるやま公園にはどうやったら行くことができますか。
+
+
+□17. バスで行くことができます。（16の文に対して）
+
+
+□18. いらっしゃいませ。
+
+
+□19. 窓を開けてもらえますか。
+
+
+□20. ごめんなさい、できません。（19の文に対して）
+
+
+□11. She is running in the park.
+
+
+□12. Please come in.
+
+
+□13. Don't play here.
+
+
+□14. Be kind to old people.
+
+
+□15. I can't speak English at all.
+
+
+□16. How can I go to Maruyama Park?
+
+
+□17. You can go by bus.
+
+
+□18. Can I help you?
+
+
+□19. Can you open the window?
+
+
+□20. Sorry, I can't.
+
+
+□ 1. いつあなたに会えますか。
+
+
+□ 2. 今日の午後に会えます。（１の文に対して）
+
+
+□ 3. 私は昨夜テレビを見ませんでした。
+
+
+□ 4. 彼は今朝８時に起きました。
+
+
+□ 5. 彼は昨日彼女と話しましたか。
+
+
+□ 6. はい、話しました。（５の文に対して）
+
+
+□ 7. いいえ、話しませんでした。（５の文に対して）
+
+
+□ 8. あなたは先週の金曜日に何をしましたか。
+
+
+□ 9. ケーキを作りました。（８の文に対して）
+
+
+□10. どうしましたか。
+
+
+
+□ 1. When can I meet you?
+
+
+□ 2. You can meet me this afternoon.
+
+
+□ 3. I didn't watch TV last night.
+
+
+□ 4. He got up at eight this morning.
+
+
+□ 5. Did he talk with her yesterday?
+
+
+□ 6. Yes, he did.
+
+
+□ 7. No, he didn't.
+
+
+□ 8. What did you do last Friday?
+
+
+□ 9. I made a cake.
+
+
+□10. What's wrong?
+
+
+□11. 頭痛がします。（10の文に対して）
+
+
+□12. もしもし、アオイですか。
+
+
+□13. こちらはユウトです。
+
+
+□14. さくらと呼んでください。
+
+
+□15. はいどうぞ。
+
+
+□16. ありがとう。
+
+
+□17. どういたしまして。（16の文に対して）
+
+
+□18. はじめまして。
+
+
+□19. 私の名前はワタナベユイです。
+
+
+□20. すみませんがもう一度言ってください。（19の文に対して）
+
+
+□11. I have a headache.
+
+
+□12. Hello, Aoi?
+
+
+□13. This is Yuto.
+
+
+□14. Call me Sakura, please.
+
+
+□15. Here you are.
+
+
+□16. Thank you.
+
+
+□17. You're welcome.
+
+
+□18. Nice to meet you.
+
+
+□19. My name is Watanabe Yui.
+
+
+□20. Pardon?
+
+2
+中１暗記用英文集
+

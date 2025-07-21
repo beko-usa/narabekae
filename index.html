@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英語並べ替えクイズ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>英語並べ替えクイズ</h1>
+    <div id="quiz-container">
+        <div id="progress-container">
+            <p>問題 <span id="question-counter">1</span> / 8</p>
+            <p>正解率: <span id="accuracy-rate">---</span>%</p>
+        </div>
+        <div id="japanese-sentence" class="sentence"></div>
+        <div id="answer-zone" class="word-container"></div>
+        <div id="word-bank" class="word-container"></div>
+        <button id="check-button">答え合わせ</button>
+        <button id="next-button" style="display: none;">次の問題へ</button>
+        <p id="feedback"></p>
+    </div>
+    <div id="result-container" style="display: none;">
+        <h2>結果発表</h2>
+        <p>8問中の正解数: <span id="correct-count"></span></p>
+        <p>一発正解率: <span id="final-accuracy"></span>%</p>
+        <p id="final-message"></p>
+        <button id="restart-button">もう一度挑戦する</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
