@@ -4,11 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f8ff;
+    background-color: #f5e6cc; /* 薄い茶色 */
 }
 
 #quiz-container, #result-container {
-    background-color: white;
+    background-color: #fff8e1; /* クリーム色に近い茶色 */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -21,6 +21,7 @@ body {
     margin-bottom: 20px;
     font-size: 1.2em;
     font-weight: bold;
+    color: #4e342e; /* 濃い茶色 */
 }
 
 .word-container {
@@ -30,31 +31,31 @@ body {
     padding: 10px;
     margin-bottom: 20px;
     min-height: 50px;
-    border: 2px dashed #ccc;
+    border: 2px dashed #d7ccc8; /* 薄い茶色の点線 */
     border-radius: 5px;
 }
 
 .word-container.drag-over {
-    background-color: #e0f7fa; /* ドロップ可能なエリアをハイライト */
-    border-color: #00bcd4;
+    background-color: #ffe0b2; /* 薄いオレンジ */
+    border-color: #ff9800; /* オレンジ */
 }
 
 .word-block {
-    background-color: #4a90e2;
+    background-color: #ff9800; /* オレンジ */
     color: white;
     padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
     cursor: grab;
-    user-select: none; /* テキスト選択を防ぐ */
+    user-select: none;
 }
 
 .word-block.dragging {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #e65100; /* 濃いオレンジ */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -72,10 +73,20 @@ button:hover {
     margin-top: 15px;
     font-size: 1.1em;
     font-weight: bold;
+    color: #e65100; /* 濃いオレンジ */
 }
 
 #progress-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    color: #4e342e; /* 濃い茶色 */
+}
+
+h1 {
+    color: #e65100; /* 濃いオレンジ */
+}
+
+h2 {
+    color: #e65100; /* 濃いオレンジ */
 }

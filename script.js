@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createWordBlock(word) {
         const wordBlock = document.createElement('div');
         wordBlock.textContent = word;
+        console.log('Creating word block for:', `'${word}'`);
         wordBlock.className = 'word-block';
         wordBlock.draggable = true; // Keep for mouse drag
         wordBlock.addEventListener('dragstart', handleDragStart); // Keep for mouse drag
@@ -214,7 +215,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     checkButton.addEventListener('click', () => {
+        console.log('Check button clicked.');
         const answerWords = Array.from(answerZoneEl.children).map(el => el.textContent);
+        console.log('Raw answer words from blocks:', answerWords);
         
         // 回答と正解の文字列を正規化（句読点除去、小文字化、余分なスペース削除）
         const normalizeString = (str) => {
@@ -224,15 +227,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const normalizedAnswer = normalizeString(answerWords.join(' '));
         const normalizedCorrect = normalizeString(currentQuizSet[currentQuestionIndex].en);
 
+        console.log('Comparing:');
+        console.log('  Normalized Answer:', `'${normalizedAnswer}'`);
+        console.log('  Normalized Correct:', `'${normalizedCorrect}'`);
+
+        attempts++;
+
         if (normalizedAnswer === normalizedCorrect) {
+            console.log('Match found! Answer is correct.');
             feedbackEl.textContent = '正解！素晴らしい！';
             feedbackEl.style.color = 'green';
             if (attempts === 1) {
                 correctInFirstTry++;
+                console.log('Correct on first try! correctInFirstTry:', correctInFirstTry);
             }
             checkButton.style.display = 'none';
             nextButton.style.display = 'block';
         } else {
+            console.log('No match. Answer is incorrect.');
             feedbackEl.textContent = '残念、不正解です。もう一度挑戦してみましょう！ヒント：単語の順序、大文字・小文字、句読点を確認してください。';
             feedbackEl.style.color = 'red';
             checkButton.style.display = 'block';
