@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const finalAccuracyEl = document.getElementById('final-accuracy');
     const finalMessageEl = document.getElementById('final-message');
     const restartButton = document.getElementById('restart-button');
+    const accuracyImageEl = document.getElementById('accuracy-image');
 
     let allQuizData = [];
     let currentQuizSet = [];
@@ -286,6 +287,30 @@ document.addEventListener('DOMContentLoaded', () => {
         correctCountEl.textContent = correctInFirstTry;
         const finalAccuracy = questionCount > 0 ? (correctInFirstTry / questionCount) * 100 : 0;
         finalAccuracyEl.textContent = finalAccuracy.toFixed(0);
+
+        let imageName = '';
+        if (finalAccuracy === 100) {
+            imageName = '100.png';
+        } else if (finalAccuracy >= 90) {
+            imageName = '90.png';
+        } else if (finalAccuracy >= 80) {
+            imageName = '80.png';
+        } else if (finalAccuracy >= 70) {
+            imageName = '70.png';
+        } else if (finalAccuracy >= 60) {
+            imageName = '60.png';
+        } else if (finalAccuracy >= 50) {
+            imageName = '50.png';
+        } else if (finalAccuracy >= 40) {
+            imageName = '40.png';
+        } else if (finalAccuracy >= 25) {
+            imageName = '30.png';
+        } else if (finalAccuracy > 0) {
+            imageName = '20.png';
+        } else {
+            imageName = '00.png';
+        }
+        accuracyImageEl.src = imageName;
 
         let message = '';
         if (finalAccuracy === 100) {
