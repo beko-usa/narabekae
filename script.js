@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextButton = document.getElementById('next-button');
     const feedbackEl = document.getElementById('feedback');
     const questionCounterEl = document.getElementById('question-counter');
-    const accuracyRateEl = document.getElementById('accuracy-rate');
     const resultContainerEl = document.getElementById('result-container');
     const quizContainerEl = document.getElementById('quiz-container');
     const correctCountEl = document.getElementById('correct-count');
@@ -14,9 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const finalMessageEl = document.getElementById('final-message');
     const restartButton = document.getElementById('restart-button');
     const accuracyImageEl = document.getElementById('accuracy-image');
+    const titleEl = document.querySelector('h1');
 
     let allQuizData = [];
     let currentQuizSet = [];
+    let incorrectlyAnsweredQuestions = [];
+    let isSecondRound = false;
     let currentQuestionIndex = 0;
     let correctInFirstTry = 0;
     let attempts = 0;
@@ -50,10 +52,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     function startQuiz() {
-        // 全データからランダムに8問選ぶ
+        titleEl.textContent = '正しい順に並べよう！';
+        // 全データからランダムに12問選ぶ
         allQuizData.sort(() => Math.random() - 0.5);
-        currentQuizSet = allQuizData.slice(0, 8);
+        currentQuizSet = allQuizData.slice(0, 12);
         
+        incorrectlyAnsweredQuestions = [];
+        isSecondRound = false;
         currentQuestionIndex = 0;
         correctInFirstTry = 0;
         attempts = 0;
@@ -65,13 +70,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function displayQuestion() {
-        if (currentQuestionIndex >= currentQuizSet.length) {
-            showResult();
-            return;
+        if (currentQuizSet.length === 0) {
+            if (incorrectlyAnsweredQuestions.length > 0) {
+                isSecondRound = true;
+                titleEl.textContent = 'ミスを復習しよう';
+                currentQuizSet = incorrectlyAnsweredQuestions;
+                incorrectlyAnsweredQuestions = [];
+                currentQuestionIndex = 0; // Reset for the new set
+            } else {
+                showResult();
+                return;
+            }
         }
 
         attempts = 0;
-        const currentQuiz = currentQuizSet[currentQuestionIndex];
+        const currentQuiz = currentQuizSet[0]; // Always take the first question
         japaneseSentenceEl.textContent = currentQuiz.ja;
         
         const words = currentQuiz.en.split(/\s+/).filter(word => word.length > 0);
@@ -85,11 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
             wordBankEl.appendChild(wordBlock);
         });
 
-        questionCounterEl.textContent = currentQuestionIndex + 1;
+        questionCounterEl.textContent = isSecondRound ? '-' : currentQuestionIndex + 1;
         feedbackEl.textContent = '';
         checkButton.style.display = 'block';
         nextButton.style.display = 'none';
-        updateAccuracy();
     }
 
     function createWordBlock(word) {
@@ -226,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const normalizedAnswer = normalizeString(answerWords.join(' '));
-        const normalizedCorrect = normalizeString(currentQuizSet[currentQuestionIndex].en);
+        const normalizedCorrect = normalizeString(currentQuizSet[0].en);
 
         console.log('Comparing:');
         console.log('  Normalized Answer:', `'${normalizedAnswer}'`);
@@ -239,9 +251,11 @@ document.addEventListener('DOMContentLoaded', () => {
             feedbackEl.textContent = '正解！素晴らしい！';
             feedbackEl.style.color = 'green';
             Array.from(answerZoneEl.children).forEach(el => el.style.color = '');
-            if (attempts === 1) {
+            if (attempts === 1 && !isSecondRound) {
                 correctInFirstTry++;
                 console.log('Correct on first try! correctInFirstTry:', correctInFirstTry);
+            } else if (attempts > 1 && !isSecondRound) {
+                incorrectlyAnsweredQuestions.push(currentQuizSet[0]);
             }
             checkButton.style.display = 'none';
             nextButton.style.display = 'block';
@@ -250,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
             feedbackEl.textContent = '残念、不正解！';
             feedbackEl.style.color = 'red';
 
-            const correctWordsOriginal = currentQuizSet[currentQuestionIndex].en.split(/\s+/).filter(word => word.length > 0);
+            const correctWordsOriginal = currentQuizSet[0].en.split(/\s+/).filter(word => word.length > 0);
             const answerWordEls = Array.from(answerZoneEl.children);
 
             answerWordEls.forEach((el, index) => {
@@ -264,26 +278,22 @@ document.addEventListener('DOMContentLoaded', () => {
             checkButton.style.display = 'block';
             nextButton.style.display = 'none';
         }
-        updateAccuracy();
     });
 
     nextButton.addEventListener('click', () => {
-        currentQuestionIndex++;
+        currentQuizSet.shift(); // Remove the answered question
+        if (!isSecondRound) {
+            currentQuestionIndex++;
+        }
         displayQuestion();
     });
 
     restartButton.addEventListener('click', startQuiz);
 
-    function updateAccuracy() {
-        const questionsAttempted = currentQuestionIndex + 1;
-        const accuracy = questionsAttempted > 0 ? (correctInFirstTry / questionsAttempted) * 100 : 0;
-        accuracyRateEl.textContent = `${accuracy.toFixed(0)}`;
-    }
-
     function showResult() {
         quizContainerEl.style.display = 'none';
         resultContainerEl.style.display = 'block';
-        const questionCount = currentQuizSet.length;
+        const questionCount = 12; // Always 12 questions initially
         correctCountEl.textContent = correctInFirstTry;
         const finalAccuracy = questionCount > 0 ? (correctInFirstTry / questionCount) * 100 : 0;
         finalAccuracyEl.textContent = finalAccuracy.toFixed(0);
