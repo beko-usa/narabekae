@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Check button clicked.');
         const answerWords = Array.from(answerZoneEl.children).map(el => el.textContent);
         console.log('Raw answer words from blocks:', answerWords);
-        
+
         // 回答と正解の文字列を正規化（句読点除去、小文字化、余分なスペース削除）
         const normalizeString = (str) => {
             return str.replace(/[.,?!]/g, '').toLowerCase().trim().replace(/\s+/g, ' ');
@@ -237,6 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Match found! Answer is correct.');
             feedbackEl.textContent = '正解！素晴らしい！';
             feedbackEl.style.color = 'green';
+            Array.from(answerZoneEl.children).forEach(el => el.style.color = '');
             if (attempts === 1) {
                 correctInFirstTry++;
                 console.log('Correct on first try! correctInFirstTry:', correctInFirstTry);
@@ -245,8 +246,20 @@ document.addEventListener('DOMContentLoaded', () => {
             nextButton.style.display = 'block';
         } else {
             console.log('No match. Answer is incorrect.');
-            feedbackEl.textContent = '残念、不正解です。もう一度挑戦してみましょう！ヒント：単語の順序、大文字・小文字、句読点を確認してください。';
+            feedbackEl.textContent = '残念、不正解！';
             feedbackEl.style.color = 'red';
+
+            const correctWordsOriginal = currentQuizSet[currentQuestionIndex].en.split(/\s+/).filter(word => word.length > 0);
+            const answerWordEls = Array.from(answerZoneEl.children);
+
+            answerWordEls.forEach((el, index) => {
+                if (index < correctWordsOriginal.length && el.textContent === correctWordsOriginal[index]) {
+                    el.style.color = ''; // 正しい位置の単語はデフォルト色
+                } else {
+                    el.style.color = 'blue'; // 間違った位置の単語は青色
+                }
+            });
+
             checkButton.style.display = 'block';
             nextButton.style.display = 'none';
         }
